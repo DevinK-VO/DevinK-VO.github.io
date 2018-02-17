@@ -157,6 +157,11 @@ a:focus, a:hover {
     font-size: 22px;
   }
 }
+#demos {
+  width: 100%;
+  height: auto;
+  padding: 25px 0;
+}
 
 .btn-circle {
   font-size: 26px;
