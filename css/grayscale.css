@@ -163,6 +163,16 @@ a:focus, a:hover {
   padding: 25px 0;
 }
 
+.carousel-item {
+  height: 55vh;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .btn-circle {
   font-size: 26px;
   width: 55px;
@@ -285,4 +295,20 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+#about_page {
+  position: absolute;
+}
+
+#aboutpic {
+  width: 28%;
+  height: 50%;
+  margin-right: 2%;
+  float:left;
+}
+
+#abouttext {
+  width: 70%;
+  float: right;
 }
